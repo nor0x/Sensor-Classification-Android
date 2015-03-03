@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="at.joleo.classificationdemo.MainActivity" >
+
+    <item
+        android:id="@+id/collectionAction"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/collection"/>
+    <item
+        android:id="@+id/classificationAction"
+        android:orderInCategory="100"
+        android:title="@string/classification"
+        app:showAsAction="never"/>
+
+</menu>

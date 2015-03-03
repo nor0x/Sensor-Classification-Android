@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClassificationDemo</string>
+    <string name="hello_world">Welcome to the classification demo app! Start collecting new recordings or classify existing data.</string>
+    <string name="classification">Classification</string>
+    <string name="collection">Collection</string>
+
+    <string-array name="classifiers">
+        <item>Random Forest</item>
+        <item>J48 Decision Tree</item>
+        <item>Naive Bayes</item>
+        <item>Support Vector Machine</item>
+    </string-array>
+
+</resources>
